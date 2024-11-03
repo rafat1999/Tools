@@ -1,8 +1,16 @@
-import subprocess
-
-def print_hello_world():
-    # Run a simple echo command to print "Hello World" in the terminal
-    subprocess.run("echo 'Hello World'", shell=True)
+def print_hacker_face():
+    # Define the hacker face pattern using multi-line string
+    face = """
+      *****       *****
+    *       *   *       *
+    *       *   *       *
+      *****       *****
+            *   *
+          *       *
+        *           *
+    """
+    # Print the face in the terminal
+    print(face)
 
 # Execute the function
-print_hello_world()
+print_hacker_face()
